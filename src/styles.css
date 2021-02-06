@@ -1,1 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
+.users_component{
+    background-color: rgb(31, 101, 102);
+    width: 100%;
+    height: fit-content;
+}
+.red{
+    color: red;
+    font-size: 25px;
+}

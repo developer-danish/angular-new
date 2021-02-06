@@ -1,0 +1,5 @@
+ app.is_first{
+        border: 1px solid green;
+        padding: 10px;
+        background-color: darkturquoise;
+    }

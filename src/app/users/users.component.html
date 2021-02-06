@@ -1,0 +1,20 @@
+<div class="users_component" [ngClass]="changeColor()">
+<p>users works!</p>
+<h2 *ngIf="isVisible()" >{{cardIndex}}{{newUser.name}}</h2>
+<h2 [style.text-decoration]="'underline'">{{newUser.id}}</h2>
+<button (click)="userClick()">click me</button>
+
+<div [ngSwitch]="cardIndex">
+    <h1 *ngSwitchCase=1>
+        Welocme to my world developer!
+    </h1>
+    <h1 *ngSwitchCase=2>
+        Welcome to my world freelancer!
+    </h1>
+    <h1 *ngSwitchCase=3>
+        Welcome to my world programmer 
+    </h1>
+   
+</div>
+
+</div>
